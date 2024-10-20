@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "createattach"; /* Ganti dengan nama font yang Anda inginkan */
+  src: url("./assets/font/created-attached.otf"); /* Ganti dengan nama file font Anda */
+}
+@font-face {
+  font-family: "futuristic"; /* Ganti dengan nama font yang Anda inginkan */
+  src: url("./assets/font/FuturisticShoreRegular-2JP8.otf"); /* Ganti dengan nama file font Anda */
+}
+
+html {
+  scroll-behavior: smooth;
+}

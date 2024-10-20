@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "createattach"; /* Ganti dengan nama font yang Anda inginkan */
+  src: url("./assets/font/created-attached.otf"); /* Ganti dengan nama file font Anda */
+  font-weight: 400;
+  font-style: normal;
+}
+
+@layer utilities {
+  .text-stroke {
+    text-shadow: 2px 2px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  }
+}
